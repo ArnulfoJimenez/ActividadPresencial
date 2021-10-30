@@ -1,0 +1,12 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Id_paciente]
+      ,[NumeroHistorialClinico]
+      ,[Nombre_paciente]
+      ,[ApellidoPaciente]
+      ,[Sexo]
+      ,[Domicilio]
+      ,[Provincia]
+      ,[Codigo_postal]
+      ,[Numero_telefono]
+      ,[Observaciones]
+  FROM [Hospital].[dbo].[Paciente]

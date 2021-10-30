@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Id_ingreso]
+      ,[Procedencia]
+      ,[Fecha_Ingreso]
+      ,[Numero_Planta]
+      ,[Numero_cama]
+      ,[Observaciones]
+      ,[NumeroHistorialClinico]
+      ,[CodigoIdentificacionMedico]
+  FROM [Hospital].[dbo].[Ingreso]
